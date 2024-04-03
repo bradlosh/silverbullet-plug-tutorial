@@ -1,6 +1,12 @@
-name: hello
+name: tutorial
+requiredPermissions:
+  - fetch
 functions:
-  helloWorld:
-    path: hello.ts:helloWorld
+  scriptureRef:
+    path: hello.ts:scriptureRef
     command:
-      name: "Say hello"
+      name: "Tutorial: Get Scripture Ref"
+  randomuser:
+    path: hello.ts:randomUser
+    command:
+      name: "Tutorial: Get Random User"

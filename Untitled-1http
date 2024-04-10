@@ -1,0 +1,8 @@
+GET https://api.nlt.to/api/parse?ref=john.3.16&key=911881c1-2531-40bb-b382-1202ca9312f2
+Content-Type: application/json
+Accept: application/json
+
+
+
+
+GET https://jsonBible.com/search/verses.php?json={"book":"John","chapter":"3","verse":"16","version":"nlt"}
